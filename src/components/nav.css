@@ -1,0 +1,40 @@
+.hamburger-menu {
+  position: relative;
+}
+
+.menu-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #333333;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  color: #fff;
+  font-size: 20px;
+}
+
+* {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  left: 50px;
+  top: 120px;
+}
+
+.menu-list-icons {
+  display: flex;
+  gap: 30px;
+}
