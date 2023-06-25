@@ -1,25 +1,37 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Work from "./components/Work";
+import { BrowserRouter } from "react-router-dom";
+
+import StarsCanvas from "./components";
+
 import Contact from "./components/Contact";
-import Nav from "./components/Nav";
-function App() {
+import Feedbacks from "./components/Feedbacks";
+import Hero from "./components/Hero";
+import Works from "./components/Work";
+import Tech from "./components/Tech";
+
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Navbar from "./components/Navbar";
+
+const App = () => {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/*" element={<h1 style={{color: 'red'}}>Go back to home</h1>} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
