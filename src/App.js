@@ -1,7 +1,11 @@
+import Header from "./component/Header";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div className="App">
-     Hello Mithi
+      <Header />
+      <Home />
     </div>
   );
 }
