@@ -13,7 +13,7 @@ const Home = () => {
         <div className="details">
           <img src={img} alt="" />
           <h1 className="title">
-            I'M Mithlesh Kumar. <br /> <span>WEB DEVELOPER</span>
+            .I'M Mithlesh Kumar - <br /> <span>WEB DEVELOPER</span>
           </h1>
           <p className="title_p">
             I'm a India based web designer & front‑end developer focused on

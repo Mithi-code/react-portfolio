@@ -23,6 +23,10 @@ const Header = () => {
         <h2>Home</h2>
           <FontAwesomeIcon icon={faEnvelopeOpen} className="icon" />
         </li>
+        <li className="icon-box">
+        <h2>Home</h2>
+          <FontAwesomeIcon icon={faEnvelopeOpen} className="icon" />
+        </li>
       </ul>
     </div>
   );
