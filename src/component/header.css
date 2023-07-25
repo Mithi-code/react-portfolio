@@ -26,6 +26,9 @@
   text-align: center;
   background-color: #fcb532;
 }
+a {
+  text-decoration: none;
+}
 
 .icon {
   left: 0;

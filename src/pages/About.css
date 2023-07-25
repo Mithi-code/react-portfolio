@@ -1,0 +1,29 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.details-container {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.skills-container {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background-color: red;
+}
+
+.experience-container {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background-color: green;
+}
